@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vikram's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ruslan+Display&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: white;
+    }
+    .card {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 40px;
+      border-radius: 20px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+      backdrop-filter: blur(10px);
+      max-width: 400px;
+      width: 90%;
+    }
+    .profile-pic {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid white;
+      margin-bottom: 15px;
+    }
+    h1 {
+      margin: 10px 0;
+      font-size: 26px;
+    }
+    p {
+      margin-bottom: 20px;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 12px 24px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .instagram {
+      background: #E1306C;
+    }
+    .instagram:hover {
+      background: #c2255c;
+    }
+    .whatsapp {
+      background: #25D366;
+    }
+    .whatsapp:hover {
+      background: #1ebd5a;
+    }
+    .call {
+      background: #ff9800;
+    }
+    .call:hover {
+      background: #e68900;
+    }
+    .dev-texts {
+      margin-top: 25px;
+    }
+    .dev-texts h2 {
+      margin: 10px 0;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+    .ram {
+      font-family: 'Ruslan Display', cursive;
+      font-size: 28px;
+      color: #FFD700;
+    }
+    .mahadev {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      color: #00FFB0;
+    }
+    .krishna {
+      font-family: 'Great Vibes', cursive;
+      font-size: 28px;
+      color: #FF69B4;
+    }
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff;
+      }
+      to {
+        text-shadow: 0 0 20px #FFD700, 0 0 30px #FF4500;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="YOUR_IMAGE.jpg" alt="Vikram Photo" class="profile-pic">
+    <h1>👋 Hi, I'm Vikram</h1>
+    <p>
+      I’m passionate about technology, creativity, and connecting with people.  
+      Feel free to reach out to me on Instagram, WhatsApp, or just give me a call!
+    </p>
+    <a href="https://instagram.com/vikramm_147" class="btn instagram" target="_blank">📸 Instagram</a>
+    <a href="https://wa.me/916377974442" class="btn whatsapp" target="_blank">💬 WhatsApp</a>
+    <a href="tel:6377974442" class="btn call">📞 Call Me</a>
+    
+    <div class="dev-texts">
+      <h2 class="ram">जय श्री राम</h2>
+      <h2 class="mahadev">जय महादेव</h2>
+      <h2 class="krishna">जय श्री कृष्ण</h2>
+    </div>
+  </div>
+</body>
+</html>
